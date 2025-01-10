@@ -1,3 +1,5 @@
+// to check the given string is palindrom or not 
+
 let s = "abcdcba";
 let temp;
 for(let i=0; i<s.length/2; i++){
