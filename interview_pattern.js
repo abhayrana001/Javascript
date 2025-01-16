@@ -1,3 +1,8 @@
+// to print the following star CanvasPattern
+//        *
+//       * *
+//      *****
+
 let n = 3;
 // for number of rows
 for (let i = 1; i <= n; i++) {
