@@ -10,3 +10,14 @@ console.log(fruits_ex1)
 const fruits_ex2 = ["Banana", "Orange", "Apple", "Mango"];
 fruits_ex2.splice(2, 2, "Lemon", "Kiwi");
 console.log(fruits_ex2)
+
+// Task:
+// You have an array numbers = [10, 20, 30, 40, 50, 60, 70]. Use splice() to remove every second element starting from index 1 (20, 40, 60).
+// Expected Output: The modified array should be [10, 30, 50, 70].
+// const numbers = [10, 20, 30, 40, 50, 60, 70];
+
+// Start from the second element (index 1) and remove every second element
+for (let i = 1; i < numbers.length; i += 1) {
+  numbers.splice(i, 1);
+}
+console.log(numbers); // Output: [10, 30, 50, 70]
