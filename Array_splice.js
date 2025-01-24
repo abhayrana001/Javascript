@@ -1,12 +1,13 @@
-// The splice() method can be used to add new items to an array:
-const fruits_ex1 = ["Banana", "Orange", "Apple", "Mango"];
-fruits_ex1.splice(2, 0, "Lemon", "Kiwi");
-console.log(fruits_ex1)
+// Task:
+// You have an array colors = ['red', 'blue', 'green', 'yellow', 'purple']. Use splice() to remove the third element ('green') from the array.
+// Expected Output: The modified array should be ['red', 'blue', 'yellow', 'purple'].
 
-// The first parameter (2) defines the position where new elements should be added (spliced in).
-// The second parameter (0) defines how many elements should be removed.
-// The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
-// The splice() method returns an array with the deleted item
+const colors = ['red', 'blue', 'green', 'yellow', 'purple'];
+colors.splice(2, 1); // Start at index 2, remove 1 element
+console.log(colors); // Output: ['red', 'blue', 'yellow', 'purple']
+
+
+
 const fruits_ex2 = ["Banana", "Orange", "Apple", "Mango"];
 fruits_ex2.splice(2, 2, "Lemon", "Kiwi");
 console.log(fruits_ex2)
