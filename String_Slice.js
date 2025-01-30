@@ -8,3 +8,13 @@ const text = "JavaScript is awesome!";
 const slicedText = text.slice(14, 21);  // "awesome" starts at index 15 and ends at 21 (22 is excluded)
 console.log(slicedText); // Output: "awesome"
 
+// Advanced Task:
+// Task: Write a function getLastNChars(str, n) that extracts the last n characters from a string using slice().
+// Call the function with "Programming" and 4 as arguments.
+function getLastNChars(str, n) {
+    return str.slice(-n); // Negative index extracts from the end
+  }
+  
+  const result = getLastNChars("Programming", 4);
+  console.log(result); // Output: "ming"
+  
