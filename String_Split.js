@@ -12,3 +12,18 @@ console.log(fruitArray);
 const sentence = "Hello World! JavaScript is fun.";
 const wordsArray = sentence.split(" ");
 console.log(wordsArray);
+
+
+// Task: Write a function splitAndLimit(str, delimiter, limit) that splits a string using a given delimiter but only returns a specified number of parts.
+
+// Call the function with "one-two-three-four-five", "-", and 3 as arguments.
+
+// Expected Output: ['one', 'two', 'three']
+
+function splitAndLimit(str, delimiter, limit) {
+    return str.split(delimiter, limit);
+  }
+  
+  const result = splitAndLimit("one-two-three-four-five", "-", 3);
+  console.log(result);
+  
